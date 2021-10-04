@@ -1,16 +1,11 @@
-# This is a sample Python script.
+from Inbentario import Inbentario
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#Creación de productos
+Producto1 = Inbentario("Pantalla",10,125)
+Producto2 = Inbentario("Teclado",30,75)
+Producto3 = Inbentario("Raton",300,24)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#Compra de productos
+Producto1.kalkulatu(2)
+Producto2.kalkulatu(6)
+Producto3.kalkulatu(14)
